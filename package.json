@@ -1,0 +1,22 @@
+{
+  "name": "dayofftoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "ethereumjs-wallet": "^0.6.0",
+    "openzeppelin-solidity": "^1.10.0",
+    "truffle-wallet-provider": "^0.0.5",
+    "zeppelin-solidity": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
