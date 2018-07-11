@@ -1,4 +1,4 @@
-var TutorialToken = artifacts.require("DayOffToken");
+var DayOffToken = artifacts.require("DayOffToken");
 
 module.exports = function(deployer) {
   deployer.deploy(DayOffToken);
