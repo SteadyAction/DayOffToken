@@ -10,7 +10,7 @@ contract DayOffToken is StandardToken {
 
     constructor() public {
         totalSupply_ = initialSupply;
-        balances[msg.sender] = initialSupply;
+        balances[msg.sender] = initialSupply * (10 ** decimals);
     }
 }
 
